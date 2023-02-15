@@ -38,6 +38,8 @@ public class UseLaptop {
 		Map<String, Laptop>l=laps.stream().collect(Collectors.toMap(i->i.getBrand(),j->j));
 		//l.keySet().forEach(x->System.out.println(x+" "+l.get(x)));
 		
+		System.out.println("check for git");
+		
 				
 		
 	}
